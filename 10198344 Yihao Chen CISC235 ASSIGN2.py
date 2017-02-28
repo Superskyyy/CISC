@@ -1,7 +1,3 @@
-# Yihao Chen 10198344
-#“I confirm that this submission is my
-# own work and is consistent with the
-# Queen's regulations on Academic Integrity
 
 #initialize global variables
 path = [] #for binary tree SearchPath function
@@ -147,7 +143,8 @@ class RB_Tree:
         sib = current.left
         
         if sib!= None and sib.color == "Red": #make sure sib is not None
-            # no rotation, need recolour and return
+            # no rotation, need recolour and return
+
             child.color = "Black"
             sib.color ="Black"
             current.color = "Red"
